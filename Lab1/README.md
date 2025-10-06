@@ -40,6 +40,7 @@
         - ```Instance type:``` t3.micro
         ![Img-5](https://imgur.com/qxHIylX.jpg)
         - ```Key pair``` - это криптографическая пара ключей (приватный и публичный). Она нужна для безопасного входа на сервер по SSH
+     
         ![Img-6](https://imgur.com/LYTQoNY.jpg)
         - ```Security group``` - это набор правил, которые определяют, какой трафик разрешен к вашему экземпляру
         ![Img-7](https://imgur.com/hWMC5a5.jpg)
@@ -66,19 +67,21 @@
    ![Img-11](https://imgur.com/7bSPSAI.jpg)
    - Открываем вкладку ```Monitoring```
    ![Img-12](https://imgur.com/yAY8YE2.jpg)
-   - Просматриваю системный лог
+   
+
+    - Просматриваю системный лог
    ![Img-13](https://imgur.com/02iwen2.jpg)
    ![Img-14](https://imgur.com/MRuU957.jpg)
    - Просматриваю снимок экрана инстанса
    ![Img-15](https://imgur.com/9gaUpx5.jpg)
-7) Подключение к EC2 инстансу по SSH
+8) Подключение к EC2 инстансу по SSH
    - Открываю терминал
    - Перехожу в директорию где находится мой приватный ключ
    - Подключаюсь к инстансу по SSH, используя команду ```ssh -i KeyPairForLabs.pem ec2-user@3.75.221.155```
    ![Img-16](https://imgur.com/iInvASz.jpg)
    - Проверяю статус веб-сервера Nginx при помощи команды ```systemctl status nginx```
    ![Img-17](https://imgur.com/Z9mJVX8.jpg)
-8) Развёртывание веб-сайта на PHP
+9) Развёртывание веб-сайта на PHP
    - Использование команды для просмотра прав доступа пользователя
 
    ```
@@ -244,3 +247,4 @@
 2) [Link-2](https://chatgpt.com/)
 
 3) [Link-3](https://eu-north-1.signin.aws.amazon.com/oauth?response_type=code&client_id=arn%3Aaws%3Asignin%3A%3A%3Aconsole%2Fcanvas&redirect_uri=https%3A%2F%2Fconsole.aws.amazon.com%2Fconsole%2Fhome%3FhashArgs%3D%2523%26isauthcode%3Dtrue%26state%3DhashArgsFromTB_eu-north-1_d358d9b76aae69ff&forceMobileLayout=0&forceMobileApp=0&code_challenge=QNPqzCbZA50S9D-SelPL1-61GK5Lf3-Mlx1hrXq43jQ&code_challenge_method=SHA-256)
+
