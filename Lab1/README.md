@@ -184,6 +184,7 @@
    - установки пакетов (например, nginx, php-fpm)
    - настройки окружения
    - развертывания приложения
+     
    ```Nginx``` - это веб-сервер для обработки HTTP/HTTPS-запросов
 
    В контексте PHP-сайта он:
@@ -249,5 +250,6 @@
 2) [Link-2](https://chatgpt.com/)
 
 3) [Link-3](https://eu-north-1.signin.aws.amazon.com/oauth?response_type=code&client_id=arn%3Aaws%3Asignin%3A%3A%3Aconsole%2Fcanvas&redirect_uri=https%3A%2F%2Fconsole.aws.amazon.com%2Fconsole%2Fhome%3FhashArgs%3D%2523%26isauthcode%3Dtrue%26state%3DhashArgsFromTB_eu-north-1_d358d9b76aae69ff&forceMobileLayout=0&forceMobileApp=0&code_challenge=QNPqzCbZA50S9D-SelPL1-61GK5Lf3-Mlx1hrXq43jQ&code_challenge_method=SHA-256)
+
 
 
